@@ -31,7 +31,10 @@ REQUIRES = [
 
 DEV = [
     'pkgmt',
-    'pytest',
+    # 'pytest',
+    # see if using same version as ploomber
+    # fix error not found /home/runner....(test)
+    'pytest==7.1.*',
     'yapf',
     'flake8',
     'invoke',
