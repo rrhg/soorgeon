@@ -34,7 +34,8 @@ DEV = [
     # 'pytest',
     # see if using same version as ploomber
     # fix error not found /home/runner....(test)
-    'pytest==7.1.*',
+    # 'pytest==7.1.*', # instaled 7.1.3 same error
+    'pytest==7.1.1',
     'yapf',
     'flake8',
     'invoke',
