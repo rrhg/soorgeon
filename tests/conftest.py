@@ -8,6 +8,13 @@ from soorgeon.export import NotebookExporter
 
 PATH_TO_TESTS = Path(__file__).absolute().parent
 
+print('xxxxxxx  PATH_TO_TESTS  xxxxxxxxxxxxxxxxxxxxxxx')
+print(PATH_TO_TESTS)
+print('xxxxxxx  pythonpath  xxxxxxxxxxxxxxxxxxxxxxx')
+pythonpath = os.environ.get('pythonpath')
+print(pythonpath)
+print('xxxxxxx   xxxxxxxxxxxxxxxxxxxxxxx')
+
 
 def path_to_tests():
     return PATH_TO_TESTS
