@@ -76,9 +76,11 @@ jobs:
         run: |
           echo "======================"
           echo "$PWD"
-          echo "======================"
           # /home/runner/work/soorgeon/soorgeon
-          ls -al
+          echo "======================"
+          ls -al tests
+          echo "======================"
+          cat tests/test_sample_notebooks.py
           echo "======================"
       - name: Integration tests
         env:
