@@ -8,6 +8,10 @@ from ploomber.spec import DAGSpec
 from soorgeon import export
 from soorgeon._pygithub import download_directory
 
+# def test_tests():
+#     print('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+#     print('tests test was runned')
+#     assert False
 
 dir_names = ['titanic-logistic-regression-with-python',
              'customer-segmentation-clustering',

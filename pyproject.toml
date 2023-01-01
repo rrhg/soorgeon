@@ -1,5 +1,6 @@
 [tool.pytest.ini_options]
 addopts = "--pdbcls=IPython.terminal.debugger:Pdb"
-#
+pythonpath = ["."]
+
 [tool.pkgmt]
 github = "ploomber/soorgeon"
